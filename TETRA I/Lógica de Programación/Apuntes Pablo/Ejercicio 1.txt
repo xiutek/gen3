@@ -1,0 +1,196 @@
+using System;
+
+namespace XP_LP2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("¡Hola! Te voy a recomendar una obra musical conforme a tus gustos.");
+            Console.WriteLine("¿Prefieres algo contemplativo, divertido o complejo?");
+            string resp = Console.ReadLine();
+            string sel = "Seleccionaste: ";
+            string horm = "¿Algo de la historia o algo moderno?";
+            string oob = "¿Quieres algo oscuro o brillante?";
+
+            if (resp == "contemplativo")
+            {
+                Console.WriteLine(sel + resp);
+                Console.WriteLine(horm);
+                resp = Console.ReadLine();
+
+                if (resp == "historia")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Adagio en Sol menor - Albinoni'");
+                        Console.WriteLine("https://youtu.be/zuh3WyfVL2M");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Piano Concerto en Sol - Ravel'");
+                        Console.WriteLine("https://youtu.be/penNqSSZTIs");
+                        resp = Console.ReadLine();
+
+                    }
+                }
+
+                if (resp == "moderno")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Cantus in memoriam - Arvo Pärt'");
+                        Console.WriteLine("https://youtu.be/sp2oxWdRMuk");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Music for 18 Musicians - Steve Reich'");
+                        Console.WriteLine("https://youtu.be/ILpCKQlDmhc");
+                        resp = Console.ReadLine();
+
+                    }
+
+
+                }
+            }
+
+            if (resp == "divertido")
+            {
+                Console.WriteLine(sel + resp);
+                Console.WriteLine(horm);
+                resp = Console.ReadLine();
+
+                if (resp == "historia")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Symphony No. 5 - Mahler'");
+                        Console.WriteLine("https://youtu.be/nO0nytFsumo");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Pictures at an exhibition - Mussorgsky'");
+                        Console.WriteLine("https://youtu.be/kkC3chi_ysw");
+                        resp = Console.ReadLine();
+
+                    }
+                }
+
+                if (resp == "moderno")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Glassworks - Philip Glass'");
+                        Console.WriteLine("https://youtu.be/6Stu7h7Qup8");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Suite No.1 for Orchestra - Béla Bartók'");
+                        Console.WriteLine("https://youtu.be/UX5J95CSiU0");
+                        Console.WriteLine("Si no resulta sficientemente moderno, tambien puedes esuchar: 'Frankenstein Symphony - Francis Dhomont'");
+                        Console.WriteLine("https://youtu.be/UX5J95CSiU0");
+                        resp = Console.ReadLine();
+
+                    }
+
+
+                }
+            }
+
+            if (resp == "complejo")
+            {
+                Console.WriteLine(sel + resp);
+                Console.WriteLine(horm);
+                resp = Console.ReadLine();
+
+                if (resp == "historia")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Ballade No. 1 - Chopin'");
+                        Console.WriteLine("https://youtu.be/Ce8p0VcTbuA");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Ofertorio Musical - Bach'");
+                        Console.WriteLine("https://youtu.be/23yNGer9Wqs");
+                        resp = Console.ReadLine();
+
+                    }
+                }
+
+                if (resp == "moderno")
+                {
+                    Console.WriteLine(sel + resp);
+                    Console.WriteLine(oob);
+                    resp = Console.ReadLine();
+
+                    if (resp == "oscuro")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Bernard Parmegiani - De Natura Sonorum'");
+                        Console.WriteLine("https://youtu.be/c_JHjUFfOs8");
+                        resp = Console.ReadLine();
+
+                    }
+
+                    if (resp == "brillante")
+                    {
+                        Console.WriteLine(sel + resp);
+                        Console.WriteLine("Te recomiendo escuchar: 'Vrioon - Alva Noto & Ryuichi Sakamoto'");
+                        Console.WriteLine("https://youtu.be/lYeP8a_Y_0A");
+                        resp = Console.ReadLine();
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}
