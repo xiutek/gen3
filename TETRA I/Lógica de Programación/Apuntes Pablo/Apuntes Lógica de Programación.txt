@@ -80,3 +80,4 @@ namespace XP_LP1
 
 // Excelente, para seguir aumentado condicionales sigue anidando un if dentro de otro
 // Reemplaza el nombre de la variable, cambia el texto de impresión y las opciones de selección.
+// No olvides liberar la variable antes de anidar otros if
