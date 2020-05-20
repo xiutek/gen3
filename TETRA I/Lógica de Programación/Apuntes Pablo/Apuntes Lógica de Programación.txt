@@ -9,6 +9,74 @@ I) Configuración de Visual Studio y C#
 3. Una vez realizada la instalación puedo seleccionar en el menú "Aplicación de consola (.NET Core), seleccionaré esta opción (IMG 002)
 4. Configurando el nuevo proyecto (IMG 003)
 5. Abro el archivo default "Program.cs" y lo ejecuto con la fecha verde, observando en la terminal que funciona. (IMG 004)
-6. B 
+6. Después de varios intentos, logramos un código que realice el ejercicio de esta lección:
 
 
+// Ejercicio 1: CONDICIONALES
+// Esto es un comentario, es texto que no se ejecuta al correr el progrma
+//'using' invoca paquetes, en este caso invoca al Systema
+using System;
+
+
+// Este es un bloque de código, el bloque de código llamado XP_LP1
+namespace XP_LP1
+{
+    // Esto es una clase.
+    class Program
+
+    {
+        // Aquí se encuentran las instrucciones del bloque de código
+        static void Main(string[] args)
+        {
+            // Mensaje de Bienvenida y presentamos la primer opción
+            Console.WriteLine("Hola usuario, soy CouchBot. Presiona x para salir.");
+            Console.WriteLine("Antes de iniciar ¿eres feliz? (s/n)");
+            // Esto es una variable. Una variable es un objeto que contiene información intercambiable (equivalente a x en algebra)
+            // Esta variabñe ecupera lo que el usuario escribe en la terminal
+            // Para definir una variable utiliza el formato tipo de variable, nombre, valor
+            string resp = Console.ReadLine();
+
+            // Nuestra primer condicional "Si usuario seleccionó s entonces..."
+            if (resp == "s")
+            {
+                // Imprimimos este mensaje en la terminal.
+                Console.WriteLine("Seleccionaste 'Soy feliz'");
+                Console.WriteLine("¡Continúa haciendo lo que estás haciendo!");
+                Console.WriteLine("¡Gracias, espero haberte ayudado!");
+            }
+
+            // Nuestra primer condicional "Si el usuario seleccionó n entonces..."
+            if (resp == "n")
+            {
+                // Imprimimos este mensaje en terminal, dando al usuario la posibilidad de una segunda condicional:
+                Console.WriteLine("Seleccionaste 'No soy feliz'");
+                Console.WriteLine("Ok, no eres feliz pero... ¿Quieres ser feliz? (s/n)");
+                // Liberamos la variable para poder utilizar nuevamente el imput del usuario en la segunda condicional:
+                resp = Console.ReadLine();
+
+                // Segunda Condicional "Si el usuario seleccionó s después de haber seleccionado n"
+                if (resp == "s")
+                {
+                    // Imprimimos este mensaje en terminal
+                    Console.WriteLine("Seleccionaste 'Quiero ser feliz'");
+                    Console.Write("Entonces cambia algo.");
+                    Console.WriteLine("¡Gracias, espero haberte ayudado!");
+                }
+
+                // Segunda Condicional "Si el usuario seleccionó n después de haber seleccionado n"
+                if (resp == "n")
+                {
+                    Console.WriteLine("Seleccionaste 'No quiero ser feliz'");
+                    Console.Write("Entonces eres emo.");
+                    Console.WriteLine("¡Gracias, espero haberte ayudado!");
+
+                }
+
+            }
+
+        }
+    }
+}
+
+// Excelente, para seguir aumentado condicionales sigue anidando un if dentro de otro
+// Reemplaza el nombre de la variable, cambia el texto de impresión y las opciones de selección.
