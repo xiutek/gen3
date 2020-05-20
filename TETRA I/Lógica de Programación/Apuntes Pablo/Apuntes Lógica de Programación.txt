@@ -1,0 +1,14 @@
+// Apuntes para C# en Visual Studio | Xiutek
+
+
+
+I) Configuración de Visual Studio y C#
+
+1. Video de introducción a C# y Visual Studio: https://www.youtube.com/watch?v=iXk8jPNaP_o
+2. En mi caso no tenía instalado el lenguaje C# así que utilicé la opción "Instalar más herramientas" y seleccioné los paquetes que contuvieran C# (IMG 001)
+3. Una vez realizada la instalación puedo seleccionar en el menú "Aplicación de consola (.NET Core), seleccionaré esta opción (IMG 002)
+4. Configurando el nuevo proyecto (IMG 003)
+5. Abro el archivo default "Program.cs" y lo ejecuto con la fecha verde, observando en la terminal que funciona. (IMG 004)
+6. B 
+
+
