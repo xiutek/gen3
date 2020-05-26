@@ -1,0 +1,13 @@
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.exe
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.deps.json
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.runtimeconfig.json
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.runtimeconfig.dev.json
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.dll
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\bin\Debug\netcoreapp3.1\Ejercicio-2.pdb
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.csprojAssemblyReference.cache
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.AssemblyInfoInputs.cache
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.AssemblyInfo.cs
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.csproj.CoreCompileInputs.cache
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.dll
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.pdb
+C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio-2\obj\Debug\netcoreapp3.1\Ejercicio-2.genruntimeconfig.cache
