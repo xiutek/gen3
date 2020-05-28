@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Nombres de mis compañeros
+            var vato1 = "Leonardo";
+            var vato2 = "Fernando";
+            var vato3 = "Daniel";
+
+            //Videojuegos favoritos de mis compañeros
+            var fav1 = "XCOM2";
+            var fav2 = "The Legend Of Zelda: Breath Of The Wild";
+            var fav3 = "Paladins";
+
+            Console.WriteLine("El videojuego favorito de " + vato1 + " es " + fav1);
+            Console.WriteLine("El videojuego favorito de " + vato2 + " es " + fav2);
+            Console.WriteLine("El videojuego favorito de " + vato3 + "es " + fav3);
+
+        }
+    }
+}
