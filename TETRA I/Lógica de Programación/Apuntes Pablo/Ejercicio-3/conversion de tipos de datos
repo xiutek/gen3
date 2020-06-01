@@ -1,0 +1,36 @@
+namespace XP_LP2
+{
+    static class Program
+    {
+
+        public static void Main(string[] args)
+        {
+            double uno = 1258.23842;
+            Console.WriteLine("Este es una variable double: " + uno);
+            float dos = (float)uno;
+            Console.WriteLine("Esta es una variable float: " + dos);
+            int tres = (int)dos;
+            Console.WriteLine("Esta es una variable int: " + tres);
+            string cinco = tres.ToString();
+            Console.WriteLine("Esta es una conversión de int a string: " + cinco);
+            Console.WriteLine("Esta es una conversión de string a char: ");
+            char[] seis = cinco.ToCharArray();
+            foreach (char ch in seis)
+            {
+                Console.WriteLine(ch);
+            }
+            Console.WriteLine("Esta es una selección uno sí uno no del arreglo de char:");
+            Console.WriteLine("{0}, {1}", seis[0], seis[2]);
+            try
+            {
+                char cuatro = Convert.ToChar(tres);
+                Console.WriteLine("{0} se convierte a '{1}' ACSII", tres, cuatro);
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("{0} se encuentra fuera del rango de conversión", tres);
+            }
+
+        }
+    }
+}
