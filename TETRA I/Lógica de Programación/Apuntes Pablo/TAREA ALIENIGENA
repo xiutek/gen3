@@ -1,0 +1,86 @@
+using Microsoft.CSharp.RuntimeBinder;
+using System;
+using System.Diagnostics.SymbolStore;
+using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
+using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
+using Microsoft.VisualBasic;
+using System.Linq;
+using System.ComponentModel.Design;
+
+namespace XP_LP2
+{
+    static class Program
+    {
+
+        public static void Main(string[] args)
+        {
+            string texto1 = "Se eligió: ";
+            string texto2 = " (Solo números)";
+
+            Console.WriteLine("cual es tu nombre");
+            string nombre = Console.ReadLine();
+            Console.WriteLine(texto1 + nombre);
+
+            Console.WriteLine("cuantos años tienes" + texto2);
+            double edad = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + edad);
+
+            Console.WriteLine("Cuál es el motivo de su llegada?");
+            string visita = Console.ReadLine();
+            Console.WriteLine(texto1 + visita);
+
+            Console.WriteLine("Cuántos habitantes son?" + texto2);
+            double numero = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + numero);
+
+            Console.WriteLine("Qué proposito tienen en nuestro planeta");
+            string motivo = Console.ReadLine();
+            Console.WriteLine(texto1 + motivo);
+
+            Console.WriteLine("cual es el motivo por el cual salieron de su planeta");
+            string salida = Console.ReadLine();
+            Console.WriteLine(texto1 + salida);
+
+            Console.WriteLine("cuantos habitantes se unieron con ustedes?"+texto2);
+            double mas = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + mas);
+
+            Console.WriteLine("que tipo de armas poseen");
+            string armas = Console.ReadLine();
+            Console.WriteLine(texto1 + armas);
+
+
+            Console.WriteLine("sus inteciones son de dominar el planeta? (S/N)");
+            string respuesta = Console.ReadLine();
+
+            if (respuesta == "S")
+            {
+                Console.WriteLine("Se eleigió dominar el planeta, no puede ingresar a la tierra");
+                bool planeta = true;
+                Console.WriteLine("¿Ingreso restringido? " + planeta);
+
+            }
+
+            if (respuesta == "N")
+            {
+                Console.WriteLine("Se eleigió NO dominar el planeta, disfrute su estancia");
+                bool planeta = false;
+                Console.WriteLine("¿Ingreso restringido? " + planeta);
+
+            }
+
+            else
+            {
+                Console.WriteLine("Se enconró un error fatal, alerando a las autoridades");
+            }
+
+
+
+
+
+
+        }
+    }
+}
