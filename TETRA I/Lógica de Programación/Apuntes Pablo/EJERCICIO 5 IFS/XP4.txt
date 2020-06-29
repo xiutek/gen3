@@ -1,0 +1,147 @@
+using System;
+using System.Security.Cryptography;
+using System.Xml.Schema;
+
+namespace xp4
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("* Los estudiantes de Xp saben cosas? ¡Vamos a averiguarlo! * ");
+            Console.WriteLine("Este test es para mayores de 3 años. ¿Cuántos años tienes? (números enteros");
+            int años = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¿Cuántas entidades tiene la república mexicana? (números enteros)");
+            int edo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¿Cuál es el número atómico del hidrógeno? (números enteros)");
+            int atom = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Se define como la razón entre el cateto adyacente y la hipotenusa (sin abreviar)");
+            string cos = Console.ReadLine().ToLower();
+            Console.WriteLine("Nombre del autor de la frase: 'Y sin embargo se mueve.' (dos nombres)");
+            string gal = Console.ReadLine().ToLower();
+            bool r1=false;
+            bool r2=false;
+            bool r3=false;
+            bool r4=false;
+            string rr1 = "CANCELADA";
+            string rr2 = "CANCELADA";
+            string rr3 = "CANCELADA";
+            string rr4 = "CANCELADA";
+
+
+            if (años >= 3)
+            {
+                if (edo == 32)
+                {
+                    r1 = true;
+                    rr1 = "¡Buen trabajo!";
+                }
+                if (edo <= 31)
+                {
+                    r1 = false;
+                    rr1 = "¡Te quedaste corto!";
+                }
+                if (edo >= 33)
+                {
+                    r1 = false;
+                    rr1 = "¡Te pasaste un poco!";
+                }
+
+                if (atom == 1)
+                {
+                    r2 = true;
+                    rr2 = "¡Respuesta correcta!";
+                }
+
+                if (atom <= 0)
+                {
+                    r2 = false;
+                    rr2 = "¡Creo que no existe un elemento con masa atómica negativa!";
+                }
+
+                if (atom >= 2)
+                {
+                    r2 = false;
+                    rr2 = "Un poco pesado ¿no?";
+                }
+
+
+                if (cos == "coseno")
+                {
+                    r3 = true;
+                    rr3 = "¡Creí que te equivocarías!";
+
+                }
+
+                if (cos != "coseno")
+                {
+                    r3 = false;
+                    rr3 = "Bueno, ¡no estaba tan fácil!";
+                }
+
+                if (gal == "galileo galilei")
+                {
+                    r4 = true;
+                    rr4 = "¡Mira que sabes cosas!";
+
+                }
+
+                if (gal != "galileo galilei")
+                {
+                    r4 = false;
+                    rr4 = "No te preocupes, nunca es tarde para aprender";
+                }
+
+            
+            }
+            else
+            Console.WriteLine("\r\n");
+
+
+
+            if (años >= 3)
+            {
+                Console.WriteLine("\r\n\r\n *¡Ahora revisemos tus respuestas!* \r\n\r\n" +
+                "Edad declarada: " + años + " \r\n" +
+                "Entidads federativas: " + edo + " " + rr1 + "\r\n" +
+                "Número atómico del Hidrógeno: " + atom + " " + rr2 + "\r\n" +
+                "Razón entre catéto e hipotenusa: " + cos + " " + rr3 + "\r\n" +
+                "Frase famosa: " + gal + " " + rr4 + "\r\n \r\n"
+                + "Calculando tu calificación...\r\n");
+
+
+                int total = Convert.ToInt32(r1) + Convert.ToInt32(r2) + Convert.ToInt32(r3) + Convert.ToInt32(r4);
+                Console.WriteLine("Número de respuestas correctas: " + total);
+
+
+                if (total == 4)
+                {
+                    Console.WriteLine("¡Exelente, todas las respuestas fueron correctas!");
+
+                }
+
+                if (total == 0)
+                {
+                    Console.WriteLine("¡Qué mal, todas las respuestas fueron incorrectas!");
+
+                }
+
+                if ((total <= 3) && (total < 0))
+                {
+                    Console.WriteLine("¡Algunas respuestas fueron incorrectas!");
+
+                }
+
+                Console.WriteLine("\r\n         _      __      __  \r\n __ __ (_)_ __/ /____ / /__\r\n \\ \\ / | || |  _/ -_) / /\r\n /_\\_\\_|\\_,_|\\__\\___|_\\_\\");
+
+            }
+
+            else
+            {
+                Console.WriteLine("No pueles, estás chiquito. \r\n(Se requiere tener 3 años o más) Usuario: " + años);
+            }
+
+
+        }
+    }
+}

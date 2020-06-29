@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic;
 using System.Linq;
-using System.ComponentModel.Design;
 
 namespace XP_LP2
 {
@@ -16,44 +15,68 @@ namespace XP_LP2
 
         public static void Main(string[] args)
         {
+            Console.WriteLine("Bienvenido al Departamento de Inmigración del Planeta Tierra, Interlooper.");
+            Console.WriteLine("Antes de ingresaras deberás llenar el formulario de aduna.");
+            Console.WriteLine("Recuerda que es un delito ingresar información falsa al sistema, cualquier anomalía será reportada a las autoridades");
+            Console.WriteLine("(Si vienes a raptar vacas, recuerda pagar a los ejemplares que obtengas.)");
+            Console.WriteLine(" ");
             string texto1 = "Se eligió: ";
             string texto2 = " (Solo números)";
 
-            Console.WriteLine("cual es tu nombre");
-            string nombre = Console.ReadLine();
-            Console.WriteLine(texto1 + nombre);
+            Console.WriteLine("Cuál es tu nombre?");
+            string nom = Console.ReadLine();
+            Console.WriteLine(texto1 + nom);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("cuantos años tienes" + texto2);
-            double edad = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(texto1 + edad);
+            Console.WriteLine("Cuántos años tiene?" + texto2);
+            double ed = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + ed);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("Cuál es el motivo de su llegada?");
-            string visita = Console.ReadLine();
-            Console.WriteLine(texto1 + visita);
+            Console.WriteLine("Viaja por negocios o placer?");
+            string mot = Console.ReadLine();
+            Console.WriteLine(texto1 + mot);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("Cuántos habitantes son?" + texto2);
-            double numero = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(texto1 + numero);
+            Console.WriteLine("Cuántos viajeros son?" + texto2);
+            double num = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + num);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("Qué proposito tienen en nuestro planeta");
-            string motivo = Console.ReadLine();
-            Console.WriteLine(texto1 + motivo);
+            Console.WriteLine("De dónde nos visitan?");
+            string pro = Console.ReadLine();
+            Console.WriteLine(texto1 + pro);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("cual es el motivo por el cual salieron de su planeta");
-            string salida = Console.ReadLine();
-            Console.WriteLine(texto1 + salida);
+            Console.WriteLine("Capture el folio de su pasaporte: ");
+            string pas = Console.ReadLine();
+            Console.WriteLine(texto1 + pas);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("cuantos habitantes se unieron con ustedes?"+texto2);
-            double mas = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(texto1 + mas);
+            Console.WriteLine("Cuantos días permanecerán en su destino?" + texto2);
+            double des = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(texto1 + des);
+            Console.WriteLine(" ");
 
-            Console.WriteLine("que tipo de armas poseen");
-            string armas = Console.ReadLine();
-            Console.WriteLine(texto1 + armas);
+            Console.WriteLine("Acepta los términos y condiciones del gobierno mundial de la tierra?");
+            string term = Console.ReadLine();
+            Console.WriteLine(texto1 + term);
+            Console.WriteLine(" ");
 
 
-            Console.WriteLine("sus inteciones son de dominar el planeta? (S/N)");
+            Console.WriteLine("Sus inteciones son de dominar el planeta? (S/N)");
             string respuesta = Console.ReadLine();
+            Console.WriteLine(" ");
+
+            Console.WriteLine("Bienvenido a la tierra " + nom + " del planeta " + pro);
+            Console.WriteLine(" ");
+            Console.WriteLine("Se ha autorizado el ingreso a sus " + num + " pasajeros, recuerde observar en todo momento las leyes locales");
+            Console.WriteLine("Información de inmigración:");
+            Console.WriteLine("Pasaporte: " + pas + ", Procedencia: " + pro + ", Tiempo autorizado: " + des);
+            Console.WriteLine("Confirmo que la información presentada al departamento de inmigración es veridica" + term);
+            Console.WriteLine(" ");
+            Console.WriteLine("Código de inmigración: " + pas + ed + des + respuesta);
+
 
             if (respuesta == "S")
             {
@@ -75,11 +98,6 @@ namespace XP_LP2
             {
                 Console.WriteLine("Se enconró un error fatal, alerando a las autoridades");
             }
-
-
-
-
-
 
         }
     }
