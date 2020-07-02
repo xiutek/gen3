@@ -21,7 +21,7 @@ namespace xp4
                 "      \\/                   \\/     \\/\r\n";
 
 
-            Console.WriteLine(frame1 + "¡Bienvenido a la búsqueda del tesoro!" + frame2);
+            Console.WriteLine(frame1 + "\r\n¡Bienvenido a la búsqueda del tesoro!\r\n" + frame2);
             Console.WriteLine("Selecciona la dificultad: 1, 2, 3");
             int dif = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
@@ -60,7 +60,7 @@ namespace xp4
             Console.WriteLine(frame1 + "¡Intenta encontrar el tesoro! \r\n(Tamaño del mapa: " + mapx + " x " + mapy + ")\r\n");
 
             //Console.WriteLine("Esto es una trampa! El item está en: " + itemx + " , " + itemy);
-            Console.WriteLine(">> Tu posición x: " + usrx + " || Tu posición y: " + usry + "<<" + frame2);
+            Console.WriteLine(">> Tu posición x: " + usrx + " || Tu posición y: " + usry + " <<\r\n" + frame2);
             Console.WriteLine("Elige cúantas casillas trasladarte en X");
             int movx = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Elige cúantas casillas trasladarte en y");
