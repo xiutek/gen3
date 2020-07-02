@@ -4,7 +4,7 @@ using System.Xml.Schema;
 
 namespace xp4
 {
-    class Program
+    class Programa
     {
         public static void Main(string[] args)
         {
@@ -21,7 +21,7 @@ namespace xp4
                 "      \\/                   \\/     \\/\r\n";
 
 
-            Console.WriteLine(frame1+"¡Bienvenido a la búsqueda del tesoro!"+frame2);
+            Console.WriteLine(frame1 + "¡Bienvenido a la búsqueda del tesoro!" + frame2);
             Console.WriteLine("Selecciona la dificultad: 1, 2, 3");
             int dif = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
@@ -57,10 +57,10 @@ namespace xp4
             int usrx = rnd.Next(1, mapx);
             int usry = rnd.Next(1, mapy);
 
-            Console.WriteLine(frame1+"¡Intenta encontrar el tesoro! \r\n(Tamaño del mapa: " + mapx + " x " + mapy +")\r\n");
-           
+            Console.WriteLine(frame1 + "¡Intenta encontrar el tesoro! \r\n(Tamaño del mapa: " + mapx + " x " + mapy + ")\r\n");
+
             //Console.WriteLine("Esto es una trampa! El item está en: " + itemx + " , " + itemy);
-            Console.WriteLine(">> Tu posición x: " + usrx + " || Tu posición y: " + usry + "<<"+frame2);
+            Console.WriteLine(">> Tu posición x: " + usrx + " || Tu posición y: " + usry + "<<" + frame2);
             Console.WriteLine("Elige cúantas casillas trasladarte en X");
             int movx = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Elige cúantas casillas trasladarte en y");
@@ -72,7 +72,7 @@ namespace xp4
 
             do
             {
-                Console.WriteLine("\r\n"+frame1+"¡Vuelve a intentarlo! \r\n>> Posición actual: (" + locx + ", " + locy + ") <<");
+                Console.WriteLine("\r\n" + frame1 + "¡Vuelve a intentarlo! \r\n>> Posición actual: (" + locx + ", " + locy + ") <<");
                 float hintx = itemx - locx;
                 float hinty = itemy - locy;
                 float ux = (Math.Abs(hintx) / 2);
@@ -88,8 +88,8 @@ namespace xp4
             }
             while ((locx != itemx | locy != itemy));
 
-            Console.WriteLine(frame1+"¡Felicidades, haz encontrado el Tesoro!\r\n");
-            Console.WriteLine("Número de intentos: "+intentos);
+            Console.WriteLine(frame1 + "¡Felicidades, haz encontrado el Tesoro!\r\n");
+            Console.WriteLine("Número de intentos: " + intentos);
             Console.WriteLine("\r\n\r\n" + xiu);
 
 
