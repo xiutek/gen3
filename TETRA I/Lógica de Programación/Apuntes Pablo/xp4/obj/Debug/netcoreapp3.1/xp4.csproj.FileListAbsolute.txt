@@ -1,0 +1,13 @@
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.exe
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.deps.json
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.runtimeconfig.json
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.runtimeconfig.dev.json
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.dll
+C:\Users\x\source\repos\xp4\bin\Debug\netcoreapp3.1\xp4.pdb
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.csprojAssemblyReference.cache
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.AssemblyInfo.cs
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.dll
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.pdb
+C:\Users\x\source\repos\xp4\obj\Debug\netcoreapp3.1\xp4.genruntimeconfig.cache

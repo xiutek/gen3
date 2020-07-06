@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <StartupObject>xp4.Programa</StartupObject>
+	  <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\x\Documents\GitHub\gen3\TETRA I\Lógica de Programación\Apuntes Pablo\Ejercicio 6 While\Tesoro.cs" Link="Tesoro.cs" />
+  </ItemGroup>
+
+</Project>
