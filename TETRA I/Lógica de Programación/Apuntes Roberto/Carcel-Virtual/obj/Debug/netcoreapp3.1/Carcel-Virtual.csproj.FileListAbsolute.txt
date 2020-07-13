@@ -1,0 +1,13 @@
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.exe
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.deps.json
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.runtimeconfig.json
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.runtimeconfig.dev.json
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.dll
+C:\Users\x\source\repos\Carcel-Virtual\bin\Debug\netcoreapp3.1\Carcel-Virtual.pdb
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.csprojAssemblyReference.cache
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.AssemblyInfo.cs
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.dll
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.pdb
+C:\Users\x\source\repos\Carcel-Virtual\obj\Debug\netcoreapp3.1\Carcel-Virtual.genruntimeconfig.cache
